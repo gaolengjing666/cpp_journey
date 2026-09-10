@@ -9,4 +9,5 @@ private:
 public:
     word(std::string en="",std::string cn=nullptr);
     void getter();
+    ~word();
 };
