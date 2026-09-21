@@ -5,4 +5,5 @@ int main(){
     book.loadFile("D:\\edgedown\\pg7256.txt");
     cout<<book.countByInitial('a')<<endl;
     cout<<book.totalWords();
+    book.WordsFrequency();
 }
